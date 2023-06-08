@@ -1,109 +1,60 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-
-body{
+.navbar{
     height: 100vh;
-    background-color: black;
-    background-image: url('img/kevin-zhang-dzFB8xeWg1M-unsplash.jpg');
+    width: 100%;
+    background-image: url(img/kevin-zhang-dzFB8xeWg1M-unsplash.jpg);
     background-size: cover;
     background-position: center;
 }
-
-li{
-    list-style: none;
-}
-a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
-
-/* untuk header */
-header{
-    position: relative;
-    padding: 0 2rem;
-    }
-.navbar{
-    width: 100%;
-    height: 80px;
-    max-width: 1200px;
-    margin: 0 auto;
+nav{
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-    justify-content: flex-start;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
-.navbar .logo a{
-    font-size: 1.5rem;
+.Logo{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
     font-weight: bold;
+    margin-right: auto;
 }
 span{
     color: red;
 }
-.navbar .links{
-    display: flex;
-    gap: 2rem;
-    margin-left:auto ;
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 20px;
 }
-.navbar .toggle_btn{
+nav ul li a {
     color: white;
-    font-size: 1.5rem;
-    cursor: pointer;
-    display: none;
+    text-decoration: none;
+    font-weight: bold;
 }
-/* Dropdown Menu */
-.dropdown_menu{
-    position:absolute;
-    right: 2rem;
-    top: 60px;
-    width: 300px;
-    height: 0;
-    background: rgba(62, 58, 58, 0.511);
-    backdrop-filter: blur(15ox);
-    border-radius: 10px;
-    overflow: hidden;
-    transition: height 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-.dropdown_menu.open{
-    height: 240px;
-}
-.dropdown_menu li{
-    padding: 0.7rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.dropdown_menu .action_btn{
-    width: 100%;
-    display: flex;
-    justify-content: center;
+nav ul li a:hover{
+    color:red;
+    transition: 0.5s;
 }
 
-/* Untuk Isi Content Headline */
-
-.opening {
-   position: relative;
-    width: 100%;
-    top: 25rem;
-    left: 15rem;
-    color: white;
-}  
 
 
-/* Untuk Responsive Design */
-@media (max-width: 992px){
-    .navbar .links,
-    .navbar .action_btn{
-        display: none;
-    }
-    .navbar .toggle_btn{
-        display: block;
-    }
 
-    .dropdown_menu{
-        display: block;
+
+
+@media only screen and (max-width: 768px){
+    nav ul li{
+        list-style-type: none;
+        display: inline-block;
+        padding: 0 10px;
+
     }
 }
