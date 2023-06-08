@@ -4,36 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
+    <title>Let's Hike!</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" ></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" href="./Img/mountain.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+JP:wght@500&family=Noto+Serif:wght@600&family=Roboto:ital@1&family=Satisfy&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="navbar">
-            <div class="logo"><a href="#"> <h2><span>Let's</span> Hike!</h2></a></div>
-        <ul class="links">
-            <li><a href="">Beranda</a></li>
-            <li><a href="">Gunung</a></li>
-            <li><a href="">Galeri</a></li>
-            <li><a href="">Kontak</a></li>
-        </ul>
-        <div class="toggle_btn">
-            <i class="fa-sharp fa-solid fa-bars"></i>
-        </div>
-        </div>
-        <div class="dropdown_menu">
-            <li><a href="">Beranda</a></li>
-            <li><a href="">Gunung</a></li>
-            <li><a href="">Galeri</a></li>
-            <li><a href="">Kontak</a></li>
-        </div>
+    <div class="wrapper">
+    <!-- Navbar -->
+        <nav>
+            <!-- Logo Di Kiri -->
+            <div class="logo">
+                <h4>Let's Hike!</h4>
+            </div>
+        
+                <ul>
+                    <li><a href="">Beranda</a></li>
+                    <li><a href="">Maps</a></li>
+                    <li><a href="">Tips</a></li>
+                    <li><a href="">Guide</a></li>
+                </ul>
 
-        <div class="opening">
-            <h1>Lorem Ipsum</h1>
-        </div>
-    </header>
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+        </nav>
+        <!-- End Navbar -->
+    </div>
+    <div class="headline">
+            <h1>Gunung Bromo</h1>
+    </div>
+    <div class="headline-content">
+        <p>Gunung Bromo adalah gunung berapi aktif yang terletak di Jawa Timur, Indonesia.<br> Gunung ini memiliki ketinggian 2.329 meter di atas permukaan laut dan berada dalam <br>empat wilayah, yaitu Kabupaten Probolinggo, Kabupaten Pasuruan, Kabupaten Lumajang, <br>dan Kabupaten Malang. Gunung Bromo terkenal sebagai objek wisata utama di Jawa Timur. <br>Gunung ini termasuk dalam kawasan Taman Nasional Bromo Tengger Semeru.</p>
+    </div>
+
+
+
+    <script src="script.js"></script>
 </body>
 </html>
