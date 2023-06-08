@@ -2,8 +2,8 @@
 Ini Adalah repository yang berisi tugas UAS Mata Kuliah Pengantar Teknologi Internet.
 
 <h2> Data Anggota</h2>
-<p> Ryan Rafael Nainggolan<br>
-    Tb Muhammad Farhan Adnan<br>
-    Voully Abdullah Zhacque<br>
-    Muhamad Syahril Ridho<br>
+<p> 1. Ryan Rafael Nainggolan<br>
+    2. Tb Muhammad Farhan Adnan<br>
+    3. Voully Abdullah Zhacque<br>
+    4. Muhamad Syahril Ridho<br>
   </p>
