@@ -1,27 +1,43 @@
-/* Style dasar untuk navbar */
-ul.navbar {
-    list-style-type: none;
-    margin: 0;
+*{
     padding: 0;
-    overflow: hidden;
-    background-color: #333;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
-
-/* Style untuk setiap item navbar */
-ul.navbar li {
-    float: left;
+.navbar{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/kevin-zhang-dzFB8xeWg1M-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
 }
-
-/* Style untuk tautan di dalam navbar */
-ul.navbar li a {
-    display: block;
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.Logo{
     color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    font-size: 28px;
+}
+span{
+    color: red;
 }
 
-/* Style saat tautan di dalam navbar dihover */
-ul.navbar li a:hover {
-    background-color: #111;
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:red;
+    transition: 0.5s;
 }
