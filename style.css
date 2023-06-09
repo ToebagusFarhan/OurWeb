@@ -178,10 +178,31 @@ nav ul li a:hover::before {
   }
 /* end animation */
 
-
-
 /* End headline */
-/* Bagian Maps */
+/* Bagian pesan tour */
+.tiket{
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tiket .kolom{
+    flex: 1;
+    margin-right: 20px;
+}
+.tiket .deskripsi{
+    font-size: 20px;
+}
+.tiket h1{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.tiket img{
+    width: 550px;
+    height: 350px;
+}
+
+
 
 
 /* Responsive Moment */
