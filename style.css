@@ -43,6 +43,7 @@ nav ul li a{
     color: black;
     text-decoration: none;
     position: relative;
+    
 }
 nav ul li a::before {
     content: '';
@@ -179,6 +180,8 @@ nav ul li a:hover::before {
 /* end animation */
 
 /* End headline */
+
+
 /* Bagian pesan tour */
 .tiket{
     padding: 60px;
@@ -201,9 +204,23 @@ nav ul li a:hover::before {
     width: 550px;
     height: 350px;
 }
+.tiket a{
+    background: pink;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+p{
+    margin: 10px 0px 10px 0px;
+    padding: 1px 0px 10px 0px;
+}
 
 
-
+/* End Bagian pesan tour */
 
 /* Responsive Moment */
 
