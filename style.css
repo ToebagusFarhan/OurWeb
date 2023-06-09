@@ -214,6 +214,11 @@ nav ul li a:hover::before {
     color: white;
     font-weight: bold;
 }
+.tiket a:hover{
+    background: white;
+    border: 1px solid pink;
+    color: pink;
+}
 p{
     margin: 10px 0px 10px 0px;
     padding: 1px 0px 10px 0px;
@@ -238,7 +243,7 @@ p{
 
 .pricing-plan-header {
     padding: 25px;
-    background: #009578;
+    background: pink;
     color: white;
 }
 
@@ -282,7 +287,7 @@ p{
 .pricing-plan-feature::before {
     padding-left: 15px;
     content: "\2714";
-    color: #009578;
+    color: pink;
     position: absolute;
     left: 0;
 }
@@ -299,17 +304,17 @@ p{
     margin: 15px auto;
     padding: 8px 20px;
     text-decoration: none;
-    color: #009578;
+    color: pink;
     background: #ffffff;
     border-radius: 5px;
-    border: 1px solid #009578;
+    border: 1px solid pink;
     text-transform: uppercase;
     letter-spacing: 0.02em;
     font-weight: bold;
 }
 
 .pricing-plan-btn:hover {
-    background: #009578;
+    background: pink;
     color: #ffffff;
 }
 
@@ -331,7 +336,7 @@ p{
     text-align: center;
     font-weight: bold;
     color: #ffffff;
-    background: #007c64;
+    background: pink;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) inset;
 }
 
