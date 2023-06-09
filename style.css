@@ -355,10 +355,11 @@ p{
     max-width: 1224px;
     width: 90%;
     margin: auto;
-    padding: 40px 0;
+    padding: 200px 0;
 }
 .title{
     margin-bottom: 2rem;
+    text-align: center;
 }
 .photo-gallery{
     display:flex;
