@@ -219,7 +219,127 @@ p{
     padding: 1px 0px 10px 0px;
 }
 
+.harga {
+    width: 300px;
+    border-radius: 25px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555555;
+    margin: 15px;
+}
 
+.harga-highlighted {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+}
+
+.pricing-plan-header {
+    padding: 25px;
+    background: #009578;
+    color: white;
+}
+
+.pricing-plan-title,
+.pricing-plan-sum {
+    margin: 0;
+    text-align: center;
+}
+
+.pricing-plan-title {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.pricing-plan-sum {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.princing-plan-desc {
+    padding: 25px;
+}
+
+.pricing-plan-list {
+    margin: 0;
+    padding: 0;
+}
+
+.pricing-plan-feature {
+    list-style: none;
+    margin: 0;
+    padding-left: 25ps;
+    position: relative;
+    font-size: 0.9em;
+}
+
+.pricing-plan-feature:not(:last-child) {
+    margin-bottom: 0.5em;
+}
+
+.pricing-plan-feature::before {
+    content: "\2714";
+    color: #009578;
+    position: absolute;
+    left: 0;
+}
+
+.pricing-plan-act{
+    padding: 25px;
+    border-top: 1px solid #eeeeee;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-plan-btn {
+    display: inline-block;
+    margin: 15px auto;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: #009578;
+    background: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #009578;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-weight: bold;
+}
+
+.pricing-plan-btn:hover {
+    background: #009578;
+    color: #ffffff;
+}
+
+.pricing-plan-cost {
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+    color: black;
+}
+
+.pricing-plan-txt {
+    font-size: 0.9em;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.harga-rec {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    background: #007c64;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) inset;
+}
+
+.container-harga {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
 /* End Bagian pesan tour */
 
 
