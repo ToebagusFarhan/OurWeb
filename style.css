@@ -270,7 +270,7 @@ p{
 .pricing-plan-feature {
     list-style: none;
     margin: 0;
-    padding-left: 25ps;
+    padding-left: 30px;
     position: relative;
     font-size: 0.9em;
 }
@@ -280,6 +280,7 @@ p{
 }
 
 .pricing-plan-feature::before {
+    padding-left: 15px;
     content: "\2714";
     color: #009578;
     position: absolute;
