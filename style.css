@@ -6,9 +6,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
-    background-image: url(img/kevin-zhang-dzFB8xeWg1M-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    
 
 }
 
@@ -92,32 +90,70 @@ nav ul li a{
 
 
 /* Headline */
-.headline{
+.beranda{
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    height: 93vh;
+}   
+.background-beranda{
     position: absolute;
-    transform: translate(-50%, -50%);
-    top: 65%;
-    left: 22%;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    background-image: url(img/kevin-zhang-dzFB8xeWg1M-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}    
 
-}
-.headline h1{
-    font-family: 'Noto Sans JP', sans-serif;
-    color: white;
-    /* text-shadow: 2px 2px 2px black; */
+.headline {
+    position: relative;
+    z-index: 1;
     text-align: left;
+    padding: 20px;
+    left: 10em;
+    top: 28em;
+    color: white;
+}
+
+.headline h1 {
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 50px;
 }
-.headline-content{
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top:75%;
-    left: 27.5%;
-}
-.headline-content p{
+
+.headline-content {
+    position: relative;
+    z-index: 1;
+    text-align: left;
+    padding: 30px;
+    left: 10em;
+    top: 25em;
     color: white;
+}
+
+.headline-content p {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 12px;
-    text-align: left;
 }
+/* Animation line slide */
+.headline-content::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease-out;
+  }
+  .headline-content:hover::before {
+    width: 30%;
+  }
+/* end animation */
+
+/* Bagian Maps */
 
 
 /* Responsive Moment */
@@ -129,7 +165,7 @@ nav ul li a{
     .headline{
         position: absolute;
         transform: translate(-50%, -50%);
-        top: 40%;
+        top: 62%;
         left: 19%;
     
     }
@@ -143,8 +179,8 @@ nav ul li a{
     .headline-content{
         position: absolute;
         transform: translate(-50%, -50%);
-        top: 47%;
-        left: 35.5%;
+        top: 70%;
+        left: 34%;
     }
     .headline-content p{
         color: white;
@@ -152,13 +188,31 @@ nav ul li a{
         font-size: 10px;
         text-align: left;
     }
+    /* Line dibawah content */
+    .headline-content::before {
+        content: '';
+        position: absolute;
+        bottom: 10px;
+        left: 30px;
+        width: 0;
+        height: 2px;
+        background-color: white;
+        transition: width 0.3s ease-out;
+      }
+      .headline-content:hover::after{
+        width: 30%;
+      }
 }
 
 /* Ukuran Tablet */
 @media screen and (max-width:768px){
+   
+   /* Navbar */
     nav ul{
         width: 40%;
     }
+    /* Navbar Ends */
+    /* Headline and Content */
     .headline{
         position: absolute;
         transform: translate(-50%, -50%);
@@ -169,7 +223,6 @@ nav ul li a{
     .headline h1{
         font-family: 'Noto Sans JP', sans-serif;
         color: white;
-        /* text-shadow: 2px 2px 2px black; */
         text-align: left;
         font-size: 20px;
     }
@@ -177,17 +230,46 @@ nav ul li a{
         position: absolute;
         transform: translate(-50%, -50%);
         top: 39%;
-        left: 37.5%;
+        left: 37%;
     }
     .headline-content p{
         color: white;
         font-family: 'Noto Sans JP', sans-serif;
-        font-size: 8px;
+        font-size: 7px;
         text-align: left;
     }
+    /* Line dibawah content */
+    .headline-content::before {
+        content: '';
+        position: absolute;
+        bottom: 10px;
+        left: 30px;
+        width: 30%;
+        height: 2px;
+        background-color: white;
+        transition: width 0.3s ease-out;
+      }
+
+    /* Ends Headline content */
+
+
+    /* Background img */
+    .background-beranda{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 50%;
+        background-image: url(img/kevin-zhang-dzFB8xeWg1M-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    /* Background Img Ends */
 }
 /* Ukuran Mobile */
 @media screen and (max-width:576px){
+    
+    /* NavBar */
     .menu-toggle{
         display: flex;
     }
@@ -212,25 +294,27 @@ nav ul li a{
         opacity: 1;
         transform: translateX(0%);
     }
+    /* NavBar Ends */
 
+    /* Headline */
     .headline{
         position: absolute;
         transform: translate(-50%, -50%);
-        top: 25%;
+        top: 28%;
         left: 23%;
     
     }
     .headline h1{
         font-family: 'Noto Sans JP', sans-serif;
         color: white;
-        /* text-shadow: 2px 2px 2px black; */
+        
         text-align: left;
         font-size: 20px;
     }
     .headline-content{
         position: absolute;
         transform: translate(-50%, -50%);
-        top: 30%;
+        top: 35%;
         left: 35%;
     }
     .headline-content p{
@@ -240,4 +324,30 @@ nav ul li a{
         text-align: left;
     }
 
+    .headline-content::before {
+        content: '';
+        position: absolute;
+        bottom: 10px;
+        left: 30px;
+        width: 30%;
+        height: 2px;
+        background-color: white;
+        transition: width 0.3s ease-out;
+      }
+    
+    /* Headline Ends */
+
+    /* Background img */
+    .background-beranda{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 50%;
+        background-image: url(img/kevin-zhang-dzFB8xeWg1M-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    /* Background Img Ends */
+    
 }
