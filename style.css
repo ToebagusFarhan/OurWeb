@@ -248,8 +248,8 @@ footer p{
     .headline{
         position: absolute;
         transform: translate(-50%, -50%);
-        top: 62%;
-        left: 19%;
+        top: 68%;
+        left: 17.5%;
     
     }
     .headline h1{
@@ -262,13 +262,13 @@ footer p{
     .headline-content{
         position: absolute;
         transform: translate(-50%, -50%);
-        top: 70%;
-        left: 34%;
+        top: 80%;
+        left: 37%;
     }
     .headline-content p{
         color: white;
         font-family: 'Noto Sans JP', sans-serif;
-        font-size: 10px;
+        font-size: 12px;
         text-align: left;
     }
     /* Line dibawah content */
@@ -283,8 +283,45 @@ footer p{
         transition: width 0.3s ease-out;
       }
       .headline-content:hover::after{
-        width: 30%;
+        width: 50%;
       }
+
+    /* Bagian pesan tour */
+    .tiket{
+        padding: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .tiket .kolom{
+        flex: 1;
+        margin-right: 20px;
+    }
+    .tiket .deskripsi{
+        font-size: 20px;
+    }
+    .tiket h1{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .tiket img{
+        width: 50%;
+        height: 50%;
+    }
+    .tiket a{
+        background: pink;
+        border-radius: 20px;
+        margin-top: 30px;
+        padding: 10px 20px;
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+    p{
+        margin: 10px 0px 10px 0px;
+        padding: 1px 0px 10px 0px;
+    }
 }
 
 /* Ukuran Tablet */
@@ -300,7 +337,7 @@ footer p{
         position: absolute;
         transform: translate(-50%, -50%);
         top: 33%;
-        left: 23%;
+        left: 19%;
     
     }
     .headline h1{
@@ -313,7 +350,7 @@ footer p{
         position: absolute;
         transform: translate(-50%, -50%);
         top: 39%;
-        left: 37%;
+        left: 30%;
     }
     .headline-content p{
         color: white;
@@ -348,13 +385,60 @@ footer p{
         background-repeat: no-repeat;
     }
     /* Background Img Ends */
+
+        /* Bagian pesan tour */
+        .tiket{
+            padding: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: -350px;
+        }
+        .tiket .kolom{
+            flex: 1;
+            margin-right: 20px;
+        }
+        .tiket .deskripsi{
+            font-size: 20px;
+        }
+        .tiket h1{
+            font-size: 30px;
+            margin-top: 10px;
+        }
+        .tiket img{
+            width:50%;
+            height: 50%;
+        }
+        .tiket a{
+            background: pink;
+            border-radius: 20px;
+            margin-top: 30px;
+            padding: 10px 20px;
+            list-style: none;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        p{
+            margin: 10px 0px 10px 0px;
+            padding: 1px 0px 10px 0px;
+        }
+
+
+        /* End Bagian pesan tour */
+
+
+        
 }
+
+
 /* Ukuran Mobile */
 @media screen and (max-width:576px){
     
     /* NavBar */
     .menu-toggle{
         display: flex;
+        z-index: 1;
     }
     nav ul{
        position: absolute;
@@ -367,7 +451,7 @@ footer p{
        justify-content: space-evenly;
        background-color: whitesmoke;
 
-       z-index: -1;
+       z-index: 1;
        transform: translateX(100%);
        transition: all 1s;
         opacity: 0;
@@ -381,11 +465,14 @@ footer p{
     /* NavBar Ends */
 
     /* Headline */
+    .beranda{
+        z-index: -1;
+    }
     .headline{
         position: absolute;
         transform: translate(-50%, -50%);
         top: 28%;
-        left: 23%;
+        left: 22%;
     
     }
     .headline h1{
@@ -404,14 +491,14 @@ footer p{
     .headline-content p{
         color: white;
         font-family: 'Noto Sans JP', sans-serif;
-        font-size: 6px;
+        font-size: 6.7px;
         text-align: left;
     }
 
     .headline-content::before {
         content: '';
         position: absolute;
-        bottom: 10px;
+        bottom: 25px;
         left: 30px;
         width: 30%;
         height: 2px;
@@ -434,4 +521,48 @@ footer p{
         z-index: -1;
     }
     /* Background Img Ends */
+
+    /* Bagian pesan tour */
+    .tiket{
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -350px;
+    }
+    .tiket .kolom{
+        flex: 1;
+        margin-right: 20px;
+    }
+    .tiket .deskripsi{
+        font-size: 80%;
+    }
+    .tiket h1{
+        font-size: 100%;
+        margin-top: 5%;
+    }
+    .tiket img{
+        width:50%;
+        height: 50%;
+    }
+    .tiket a{
+        background: pink;
+        border-radius: 20px;
+        margin-top: 30px;
+        padding: 10px 20px;
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+    p{
+        margin: 10px 0px 10px 0px;
+        padding: 7px 0px 7px 0px;
+        font-size: 60%;
+    }
+
+
+    /* End Bagian pesan tour */
+
+
 }
