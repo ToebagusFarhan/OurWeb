@@ -398,6 +398,9 @@ footer p{
 
 
 /* Guide start */
+.content-guide{
+    display: flex;
+}
 .guide{
     padding: 60px;
     display: flex;
@@ -557,7 +560,53 @@ footer p{
         margin: 10px 0px 10px 0px;
         padding: 1px 0px 10px 0px;
     }
+    /* bagian guide */
+    .guide {
+        padding: 20px;
+    }
+
+    .container1 {
+        padding: 20px;
+    }
+
+    .menu-icon,
+    .setting-icon {
+        width: 15px;
+        top: 20px;
+    }
+
+    .profile-pic {
+        width: 90px;
+        margin-top: 20px;
+    }
+
+    .profile-bottom {
+        padding: 30px 0;
+        margin-right: -20px;
+        margin-left: -20px;
+    }
+
+    .profile-box button {
+        padding: 10px 30px;
+        border-radius: 15px;
+        margin-bottom: -30px;
+        font-size: 12px;
+    }
+
+    .profile-box h3 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .sosial-media img {
+        width: 16px;
+        margin: 15px 2px;
+    }
 }
+}
+
+
+
 
 /* Ukuran Tablet */
 @media screen and (max-width:768px){
@@ -669,6 +718,50 @@ footer p{
         }
 
         /* End Galeri */
+ /* Bagian Guide */
+ .guide {
+    padding: 30px;
+}
+
+.container1 {
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.menu-icon,
+.setting-icon {
+    width: 20px;
+    top: 30px;
+}
+
+.profile-pic {
+    width: 120px;
+    margin-top: 30px;
+}
+
+.profile-bottom {
+    padding: 40px 0;
+    margin-right: -30px;
+    margin-left: -30px;
+}
+
+.profile-box button {
+    padding: 12px 40px;
+    border-radius: 20px;
+    margin-bottom: -40px;
+    font-size: 14px;
+}
+
+.profile-box h3 {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.sosial-media img {
+    width: 18px;
+    margin: 20px 3px;
+}
+}
 
         
 }
@@ -805,6 +898,48 @@ footer p{
 
 
     /* End Bagian pesan tour */
+    /* Bagian Guidenya */
+ .guide {
+        padding: 20px;
+    }
 
+    .container1 {
+        padding: 20px;
+    }
+
+    .menu-icon,
+    .setting-icon {
+        width: 15px;
+        top: 20px;
+    }
+
+    .profile-pic {
+        width: 90px;
+        margin-top: 20px;
+    }
+
+    .profile-bottom {
+        padding: 30px 0;
+        margin-right: -20px;
+        margin-left: -20px;
+    }
+
+    .profile-box button {
+        padding: 10px 30px;
+        border-radius: 15px;
+        margin-bottom: -30px;
+        font-size: 12px;
+    }
+
+    .profile-box h3 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .sosial-media img {
+        width: 16px;
+        margin: 15px 2px;
+    }
+}
 
 }
