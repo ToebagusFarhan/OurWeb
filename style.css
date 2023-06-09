@@ -6,8 +6,13 @@
 body{
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
-    
-
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+body::-webkit-scrollbar {/* WebKit */
+    width: 0;
+    height: 0;
 }
 
 /* Navbar */
@@ -25,6 +30,9 @@ nav .logo{
     font-size: 1.2em;
     letter-spacing: 2px;
 }
+nav .logo span{
+    color:red;
+}
 nav ul{
     display: flex;
     list-style: none;
@@ -34,6 +42,21 @@ nav ul{
 nav ul li a{
     color: black;
     text-decoration: none;
+    position: relative;
+}
+nav ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.3s ease-out;
+}
+
+nav ul li a:hover::before {
+    width: 100%;
     
 }
 /* End Navbar */
