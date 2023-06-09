@@ -331,6 +331,7 @@ nav ul li a:hover::before {
     nav ul.slide{
         opacity: 1;
         transform: translateX(0%);
+        z-index: 1;
     }
     /* NavBar Ends */
 
@@ -385,6 +386,7 @@ nav ul li a:hover::before {
         background-image: url(img/kevin-zhang-dzFB8xeWg1M-unsplash.jpg);
         background-size: cover;
         background-repeat: no-repeat;
+        z-index: -1;
     }
     /* Background Img Ends */
     
