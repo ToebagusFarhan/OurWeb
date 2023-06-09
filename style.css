@@ -178,17 +178,7 @@ nav ul li a:hover::before {
   }
 /* end animation */
 
-.line{
-    position: absolute;
-    border-bottom: 3px solid #b8b8b8;
-    padding: 50px;
-    left: 30em;
-    top: 36em;
-    width: 30%;
-}
-.line h1{
-    opacity: 0;
-}
+
 
 /* End headline */
 /* Bagian Maps */
@@ -289,8 +279,8 @@ nav ul li a:hover::before {
       }
 
     /* Ends Headline content */
-
-
+    /* Line */
+  
     /* Background img */
     .background-beranda{
         position: absolute;
@@ -389,5 +379,4 @@ nav ul li a:hover::before {
         z-index: -1;
     }
     /* Background Img Ends */
-    
 }
