@@ -476,6 +476,14 @@ footer p{
     margin: 30px 5px;
     cursor: pointer;
 }
+
+.content-guide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
 /* Guide end  */
 /* Responsive Moment */
 
