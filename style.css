@@ -184,7 +184,7 @@ nav ul li a:hover::before {
 
 /* Bagian pesan tour */
 .tiket{
-    padding: 60px;
+    padding: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
