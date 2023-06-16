@@ -376,6 +376,9 @@ p{
     border-radius: 5px;
     object-fit: cover;
 }
+.photo:hover{
+    scale: 1.05;
+}
 
 /* End Galer I */
 
