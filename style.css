@@ -933,6 +933,50 @@ footer p{
         font-size: 60%;
     }
 
+    .harga {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .pricing-plan-header {
+        padding: 20px;
+    }
+
+    .pricing-plan-title {
+        font-size: 1.2em;
+    }
+
+    .pricing-plan-sum {
+        font-size: 0.9em;
+    }
+
+    .pricing-plan-desc {
+        padding: 16px;
+    }
+
+    .pricing-plan-feature::before {
+        padding-left: 10px;
+    }
+
+    .pricing-plan-act {
+        padding: 20px;
+    }
+
+    .pricing-plan-btn {
+        margin: 15px 0;
+    }
+
+    .pricing-plan-cost {
+        font-size: 1.5em;
+    }
+
+    .pricing-plan-txt {
+        font-size: 0.8em;
+    }
+
+    .container-harga {
+        padding: 30px;
+    }
 
     /* End Bagian pesan tour */
     /* Bagian Guidenya */
