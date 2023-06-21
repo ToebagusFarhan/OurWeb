@@ -161,7 +161,7 @@ nav ul li a:hover::before {
 
 .headline-content p {
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 12px;
+    font-size: 13px;
 }
 /* Animation line slide */
 .headline-content::before {
